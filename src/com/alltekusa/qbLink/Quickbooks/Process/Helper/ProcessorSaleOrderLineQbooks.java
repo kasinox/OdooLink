@@ -3,11 +3,11 @@ package com.alltekusa.qbLink.Quickbooks.Process.Helper;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.aionsoft.qblink.model.Odoo.CategoryOdoo;
-import com.aionsoft.qblink.model.Odoo.SaleOrderLineOdoo;
 import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderLineManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderManager;
+import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
+import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
 import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
 import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 

@@ -3,10 +3,10 @@ package com.alltekusa.qbLink.Quickbooks.Model;
 import java.util.ArrayList;
 import java.util.logging.Level;
 
-import com.aionsoft.qblink.model.Odoo.ProductOdoo.ProductType;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Base.Row;
 import com.alltekusa.qbLink.Model.Base.Table;
+import com.alltekusa.qbLink.Odoo.Model.ProductOdoo.ProductType;
 
 public class Product extends Table {
 	// Product information required to build quickbooks item

@@ -2,9 +2,9 @@ package com.alltekusa.qbLink.Quickbooks.Process.Helper;
 
 import java.sql.SQLException;
 
-import com.aionsoft.qblink.model.Odoo.CategoryOdoo;
-import com.aionsoft.qblink.model.Odoo.ProductOdoo;
 import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
+import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
+import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
 import com.alltekusa.qbLink.Quickbooks.Model.Product;
 import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
 

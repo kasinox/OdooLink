@@ -3,10 +3,10 @@ package com.alltekusa.qbLink.Viewer.Console.cmd;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.aionsoft.qblink.model.Odoo.CategoryOdoo;
-import com.aionsoft.qblink.model.Odoo.CustomerOdoo;
-import com.aionsoft.qblink.model.Odoo.ProductOdoo;
-import com.aionsoft.qblink.model.Odoo.VendorOdoo;
+import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
+import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
+import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
+import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
 import com.alltekusa.qbLink.Quickbooks.Model.Product;
 import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
 import com.alltekusa.qbLink.Quickbooks.Model.Vendor;

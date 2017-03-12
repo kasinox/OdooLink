@@ -10,12 +10,6 @@ import javax.swing.plaf.synth.SynthSeparatorUI;
 
 import org.w3c.dom.Document;
 
-import com.aionsoft.qblink.model.Odoo.CategoryOdoo;
-import com.aionsoft.qblink.model.Odoo.CustomerOdoo;
-import com.aionsoft.qblink.model.Odoo.ProductOdoo;
-import com.aionsoft.qblink.model.Odoo.SaleOrderLineOdoo;
-import com.aionsoft.qblink.model.Odoo.SaleOrderOdoo;
-import com.aionsoft.qblink.model.Odoo.VendorOdoo;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.CustomerManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
@@ -25,6 +19,12 @@ import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Helper.ReadFileByLine;
 import com.alltekusa.qbLink.Helper.Process.CustomerProcessor;
 import com.alltekusa.qbLink.Helper.Process.SaleOrderProcessor;
+import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
+import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
+import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
+import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
+import com.alltekusa.qbLink.Odoo.Model.SaleOrderOdoo;
+import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
 import com.alltekusa.qbLink.Quickbooks.Model.Customer;
 import com.alltekusa.qbLink.Quickbooks.Model.Product;
 import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
