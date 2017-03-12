@@ -12,7 +12,6 @@ public class ConnectionManagerPostgreSQL {
 	private final String USERNAME = "sid";
 	private final String PASSWORD = "password";
 	private static final String P_CONN_STRING = "jdbc:postgresql://localhost:5432/odoo-production";
-//	private static final String M_CONN_STRING = "jdbc:postgresql://localhost:5432/odoo-php-test-1";
 	private static final String Q_CONN_STRING = "jdbc:odbc:quickbooks" ;	
 	private static final String driver = "sun.jdbc.odbc.JdbcOdbcDriver";
 	
