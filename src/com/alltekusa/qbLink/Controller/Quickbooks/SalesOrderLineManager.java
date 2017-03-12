@@ -17,7 +17,6 @@ import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Model.Base.Row;
 import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrderLine;
 import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
-import com.alltekusa.qbLink.Viewer.Console.GUI.MainControllerGUI;
 
 public class SalesOrderLineManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();

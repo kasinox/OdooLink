@@ -34,7 +34,6 @@ import com.alltekusa.qbLink.Quickbooks.Model.Product;
 import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
 import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
-import com.alltekusa.qbLink.Viewer.Console.GUI.ConfirmBox;
 
 //import javafx.beans.property.SimpleStringProperty;
 //import javafx.beans.property.StringProperty;
