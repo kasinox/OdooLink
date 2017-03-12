@@ -19,9 +19,9 @@ import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorSaleOrderQbooks;
 import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorVendorQbooks;
 
 public class QBAdd {
-	ArrayList<ProductCategory> categoryFailed = new ArrayList<>(); // items
-																	// failed to
-																	// insert
+	
+	
+	ArrayList<ProductCategory> categoryFailed = new ArrayList<>(); 
 	ArrayList<Customer> customerFailed = new ArrayList<>();
 	ArrayList<Product> productFailed = new ArrayList<>();
 	ArrayList<Vendor> vendorFailed = new ArrayList<>();
@@ -217,6 +217,12 @@ public class QBAdd {
 	}
 
 	public boolean addCustomer(ArrayList<String> ids) throws SQLException {
+		
+		/**
+		 * Add Customer only to quickbooks give sales order Number
+		 * 
+		 */
+		
 		OdooData data = new QBExtract().extractOdooData(ids);
 //		data = new QBExist().exist(data);
 		data = new QBExist().existCustomerSync(data);
