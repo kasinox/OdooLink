@@ -13,6 +13,9 @@ import com.aionsoft.qblink.configuration.quickbooks.Incoterm;
 import com.aionsoft.qblink.configuration.quickbooks.IncotermCode;
 import com.aionsoft.qblink.configuration.quickbooks.PaymentTermCode;
 import com.aionsoft.qblink.configuration.quickbooks.SalesRepCode;
+import com.aionsoft.qblink.model.base.Cell;
+import com.aionsoft.qblink.model.base.Column;
+import com.aionsoft.qblink.model.base.Row;
 import com.aionsoft.qblink.model.odoo.CategoryOdoo;
 import com.aionsoft.qblink.model.odoo.CustomerOdoo;
 import com.aionsoft.qblink.model.odoo.ProductOdoo;
@@ -26,9 +29,6 @@ import com.aionsoft.qblink.model.quickbooks.ProductCategory;
 import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.aionsoft.qblink.model.quickbooks.Vendor;
-import com.alltekusa.qbLink.Model.Base.Cell;
-import com.alltekusa.qbLink.Model.Base.Column;
-import com.alltekusa.qbLink.Model.Base.Row;
 
 public class Transform {
 	

@@ -9,8 +9,8 @@ import java.util.logging.Logger;
 
 import com.aionsoft.qblink.controller.database.ConnectionManager;
 import com.aionsoft.qblink.helper.Processor;
+import com.aionsoft.qblink.model.base.Row;
 import com.aionsoft.qblink.model.quickbooks.Customer;
-import com.alltekusa.qbLink.Model.Base.Row;
 
 public class CustomerManager extends QBManager {
 	public final static Logger LOGGER = Logger.getLogger(CustomerManager.class.getName());

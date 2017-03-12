@@ -1,6 +1,6 @@
 package com.aionsoft.qblink.model.quickbooks;
 
-import com.alltekusa.qbLink.Model.Base.Table;
+import com.aionsoft.qblink.model.base.Table;
 
 public class ProductCategory extends Product{
 	private String category_id;

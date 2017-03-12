@@ -10,9 +10,9 @@ import java.util.logging.Logger;
 
 import com.aionsoft.qblink.controller.database.ConnectionManager;
 import com.aionsoft.qblink.helper.Processor;
+import com.aionsoft.qblink.model.base.Column;
+import com.aionsoft.qblink.model.base.Table;
 import com.aionsoft.qblink.model.quickbooks.Customer;
-import com.alltekusa.qbLink.Model.Base.Column;
-import com.alltekusa.qbLink.Model.Base.Table;
 
 public class QBManager {
 

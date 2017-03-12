@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 import com.aionsoft.qblink.configuration.quickbooks.SalesRepCode;
 import com.aionsoft.qblink.controller.database.ConnectionManager;
+import com.aionsoft.qblink.model.base.Row;
 import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
-import com.alltekusa.qbLink.Model.Base.Row;
 
 public class SalesOrderManager extends QBManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();	

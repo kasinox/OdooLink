@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.alltekusa.qbLink.Viewer.Console.cmd.MainCommand;
+import com.aionsoft.qblink.view.MainCommand;
 
 /**
  * Servlet implementation class QbServlet

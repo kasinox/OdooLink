@@ -2,7 +2,7 @@ package com.aionsoft.qblink.model.quickbooks;
 
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Model.Base.Table;
+import com.aionsoft.qblink.model.base.Table;
 
 public class SaleOrder extends Table {
 	

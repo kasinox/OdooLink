@@ -1,8 +1,8 @@
 package com.aionsoft.qblink.model.quickbooks;
 
-import com.alltekusa.qbLink.Model.Base.Cell;
-import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Model.Base.Table;
+import com.aionsoft.qblink.model.base.Cell;
+import com.aionsoft.qblink.model.base.Row;
+import com.aionsoft.qblink.model.base.Table;
 
 public class Vendor extends Table{
 	

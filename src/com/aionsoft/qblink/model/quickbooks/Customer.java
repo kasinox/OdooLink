@@ -2,10 +2,10 @@ package com.aionsoft.qblink.model.quickbooks;
 
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Model.Base.Cell;
-import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Model.Base.Table;
-import com.alltekusa.qbLink.Model.Configuration.Entry;
+import com.aionsoft.qblink.model.base.Cell;
+import com.aionsoft.qblink.model.base.Row;
+import com.aionsoft.qblink.model.base.Table;
+import com.aionsoft.qblink.model.configuration.Entry;
 
 public class Customer extends Table {
 	

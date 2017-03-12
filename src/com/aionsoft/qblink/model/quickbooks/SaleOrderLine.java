@@ -3,8 +3,8 @@ package com.aionsoft.qblink.model.quickbooks;
 import java.util.ArrayList;
 import java.util.Date;
 
-import com.alltekusa.qbLink.Model.Base.Table;
-import com.alltekusa.qbLink.Model.Configuration.Entry;
+import com.aionsoft.qblink.model.base.Table;
+import com.aionsoft.qblink.model.configuration.Entry;
 
 public class SaleOrderLine extends Table{
 	static String tableName = "saleOrderLine";

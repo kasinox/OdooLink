@@ -5,9 +5,9 @@ import java.sql.ResultSet;
 import java.util.logging.Logger;
 
 import com.aionsoft.qblink.controller.database.ConnectionManager;
+import com.aionsoft.qblink.model.base.Row;
 import com.aionsoft.qblink.model.quickbooks.Customer;
 import com.aionsoft.qblink.model.quickbooks.Vendor;
-import com.alltekusa.qbLink.Model.Base.Row;
 
 public class VendorManager extends QBManager {
 

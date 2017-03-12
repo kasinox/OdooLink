@@ -10,11 +10,11 @@ import java.util.logging.Logger;
 import com.aionsoft.qblink.controller.database.ConnectionManager;
 import com.aionsoft.qblink.helper.LoggerManager;
 import com.aionsoft.qblink.helper.Processor;
+import com.aionsoft.qblink.model.base.Row;
 import com.aionsoft.qblink.model.quickbooks.Customer;
 import com.aionsoft.qblink.model.quickbooks.Product;
 import com.aionsoft.qblink.model.quickbooks.ProductCategory;
 import com.aionsoft.qblink.processor.Generator;
-import com.alltekusa.qbLink.Model.Base.Row;
 
 public class ProductManager extends QBManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();

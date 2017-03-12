@@ -14,12 +14,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.alltekusa.qbLink.Viewer.Console.cmd.OdooData;
-import com.alltekusa.qbLink.Viewer.Console.cmd.QBAdd;
-import com.alltekusa.qbLink.Viewer.Console.cmd.QBExist;
-import com.alltekusa.qbLink.Viewer.Console.cmd.QBExtract;
-import com.alltekusa.qbLink.Viewer.Console.cmd.QBTransform;
-import com.alltekusa.qbLink.Viewer.Console.cmd.QuickbooksData;
+import com.aionsoft.qblink.view.OdooData;
+import com.aionsoft.qblink.view.QBAdd;
+import com.aionsoft.qblink.view.QBExist;
+import com.aionsoft.qblink.view.QBExtract;
+import com.aionsoft.qblink.view.QBTransform;
+import com.aionsoft.qblink.view.QuickbooksData;
 
 /**
  * Servlet implementation class AddSalesOrder
