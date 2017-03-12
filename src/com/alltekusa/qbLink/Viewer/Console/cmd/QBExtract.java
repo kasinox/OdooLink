@@ -5,15 +5,15 @@ import java.util.ArrayList;
 
 import org.w3c.dom.Document;
 
+import com.aionsoft.qblink.helper.ExistInOdoo;
+import com.aionsoft.qblink.helper.GetURI;
+import com.aionsoft.qblink.helper.Processor;
 import com.aionsoft.qblink.model.odoo.CategoryOdoo;
 import com.aionsoft.qblink.model.odoo.CustomerOdoo;
 import com.aionsoft.qblink.model.odoo.ProductOdoo;
 import com.aionsoft.qblink.model.odoo.SaleOrderLineOdoo;
 import com.aionsoft.qblink.model.odoo.SaleOrderOdoo;
 import com.aionsoft.qblink.model.odoo.VendorOdoo;
-import com.alltekusa.qbLink.Helper.ExistInOdoo;
-import com.alltekusa.qbLink.Helper.GetURI;
-import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Helper.Process.SaleOrderProcessor;
 
 public class QBExtract {

@@ -3,17 +3,16 @@ package com.alltekusa.qbLink.Report.Model;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.controller.quickbooks.ProductManager;
+import com.aionsoft.qblink.controller.quickbooks.PurchaseOrderLineManager;
+import com.aionsoft.qblink.controller.quickbooks.PurchaseOrderManager;
+import com.aionsoft.qblink.controller.quickbooks.QBManager;
+import com.aionsoft.qblink.controller.quickbooks.SalesOrderLineManager;
+import com.aionsoft.qblink.controller.quickbooks.SalesOrderManager;
 import com.aionsoft.qblink.model.quickbooks.PurchaseOrder;
 import com.aionsoft.qblink.model.quickbooks.PurchaseOrderLine;
 import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
-import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.PurchaseOrderLineManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.PurchaseOrderManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.QBManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderLineManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderManager;
-
 import com.alltekusa.qbLink.Model.Query.SQLUpdateMessage;
 
 public class SOStatusReport {

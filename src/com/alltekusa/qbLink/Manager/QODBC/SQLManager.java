@@ -10,7 +10,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
+import com.aionsoft.qblink.controller.database.ConnectionManager;
 import com.alltekusa.qbLink.Model.Base.Cell;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Base.Row;

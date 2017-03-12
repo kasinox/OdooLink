@@ -12,11 +12,11 @@ import com.aionsoft.qblink.model.quickbooks.Product;
 import com.aionsoft.qblink.model.quickbooks.ProductCategory;
 import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.aionsoft.qblink.model.quickbooks.Vendor;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorCategoryQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorCustomerQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorProductQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorSaleOrderQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorVendorQbooks;
+import com.aionsoft.qblink.processor.ProcessorCategoryQbooks;
+import com.aionsoft.qblink.processor.ProcessorCustomerQbooks;
+import com.aionsoft.qblink.processor.ProcessorProductQbooks;
+import com.aionsoft.qblink.processor.ProcessorSaleOrderQbooks;
+import com.aionsoft.qblink.processor.ProcessorVendorQbooks;
 
 public class QBAdd {
 	

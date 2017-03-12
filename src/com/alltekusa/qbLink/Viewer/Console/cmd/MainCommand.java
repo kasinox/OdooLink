@@ -10,6 +10,13 @@ import javax.swing.plaf.synth.SynthSeparatorUI;
 
 import org.w3c.dom.Document;
 
+import com.aionsoft.qblink.controller.database.ConnectionManager;
+import com.aionsoft.qblink.controller.quickbooks.CustomerManager;
+import com.aionsoft.qblink.controller.quickbooks.ProductManager;
+import com.aionsoft.qblink.helper.ExistInOdoo;
+import com.aionsoft.qblink.helper.GetURI;
+import com.aionsoft.qblink.helper.Processor;
+import com.aionsoft.qblink.helper.ReadFileByLine;
 import com.aionsoft.qblink.model.odoo.CategoryOdoo;
 import com.aionsoft.qblink.model.odoo.CustomerOdoo;
 import com.aionsoft.qblink.model.odoo.ProductOdoo;
@@ -21,22 +28,15 @@ import com.aionsoft.qblink.model.quickbooks.Product;
 import com.aionsoft.qblink.model.quickbooks.ProductCategory;
 import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.aionsoft.qblink.model.quickbooks.Vendor;
-import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.CustomerManager;
-import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
-import com.alltekusa.qbLink.Helper.ExistInOdoo;
-import com.alltekusa.qbLink.Helper.GetURI;
-import com.alltekusa.qbLink.Helper.Processor;
-import com.alltekusa.qbLink.Helper.ReadFileByLine;
+import com.aionsoft.qblink.processor.Generator;
+import com.aionsoft.qblink.processor.ProcessorCategoryQbooks;
+import com.aionsoft.qblink.processor.ProcessorCustomerQbooks;
+import com.aionsoft.qblink.processor.ProcessorProductQbooks;
+import com.aionsoft.qblink.processor.ProcessorSaleOrderLineQbooks;
+import com.aionsoft.qblink.processor.ProcessorSaleOrderQbooks;
+import com.aionsoft.qblink.processor.ProcessorVendorQbooks;
 import com.alltekusa.qbLink.Helper.Process.CustomerProcessor;
 import com.alltekusa.qbLink.Helper.Process.SaleOrderProcessor;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.Generator;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorCategoryQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorCustomerQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorProductQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorSaleOrderLineQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorSaleOrderQbooks;
-import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorVendorQbooks;
 import com.alltekusa.qbLink.Report.Model.ContractReport;
 
 public class MainCommand {
