@@ -2,7 +2,7 @@ package com.aionsoft.qblink.model.quickbooks;
 
 import java.util.ArrayList;
 
-public class PurchaseOrder{
+public class PurchaseOrder extends Table{
 
 	public PurchaseOrder(String poRefNumber, String soRefNumber, String vendorName, String expectedDate,
 			String shipmethodRefFullName) {

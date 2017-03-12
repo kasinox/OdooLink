@@ -2,7 +2,9 @@ package com.aionsoft.qblink.model.quickbooks;
 
 import java.util.Date;
 
-public class PurchaseOrderLine {
+import com.aionsoft.qblink.model.base.Table;
+
+public class PurchaseOrderLine extends Table{
 	String refNumber;
 	String customFieldOther1;
 	String vendorName;

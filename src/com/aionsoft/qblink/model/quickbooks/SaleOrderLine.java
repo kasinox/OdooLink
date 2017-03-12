@@ -110,10 +110,7 @@ public class SaleOrderLine extends Table{
 	public void setAmount(String amount) {
 		this.amount = amount;
 	}
-	public String toString(){
-		
-		return 	refNumber+"\t"+row+"\t"+PONumber+"\t"+status+"\t"+qty+"\t"+rate+"\t"+amount+"\t"+name ;
-	}
+
 
 	public int getRow() {
 		return row;
@@ -170,7 +167,23 @@ public class SaleOrderLine extends Table{
 	public void setShipdate(Date shipdate) {
 		Shipdate = shipdate;
 	}
-
+	public String toString(){
+		
+		return 	refNumber+"\t"+row+"\t"+PONumber+"\t"+status+"\t"+qty+"\t"+rate+"\t"+amount+"\t"+name ;
+	}
+	public String toJson(){
+		String text = "";
+		
+		text = "{"
+				+ "\"SaleorderLine\":{"
+				+ "}"
+				+ "}";
+		
+		return text;
+		
+	}
+	
+	
 
 
 	
