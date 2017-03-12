@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import com.alltekusa.qbLink.Quickbooks.Model.Item;
+import com.aionsoft.qblink.model.quickbooks.Item;
 
 public class ReadFileByLine {
 

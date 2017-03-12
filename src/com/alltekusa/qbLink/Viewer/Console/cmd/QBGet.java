@@ -3,12 +3,12 @@ package com.alltekusa.qbLink.Viewer.Console.cmd;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo;
+import com.aionsoft.qblink.model.odoo.VendorOdoo;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderManager;
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
 import com.alltekusa.qbLink.Quickbooks.Process.Helper.ProcessorSaleOrderQbooks;
 
 public class QBGet {

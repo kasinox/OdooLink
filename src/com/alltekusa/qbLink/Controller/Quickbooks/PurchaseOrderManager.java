@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrder;
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrderLine;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrderLine;
 
 public class PurchaseOrderManager {
 	

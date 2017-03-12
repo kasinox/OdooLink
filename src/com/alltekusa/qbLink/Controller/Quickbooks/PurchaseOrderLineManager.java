@@ -8,10 +8,10 @@ import java.util.ArrayList;
 
 import javax.swing.plaf.synth.SynthSeparatorUI;
 
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrder;
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrderLine;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrderLine;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 
 public class PurchaseOrderLineManager {
 	

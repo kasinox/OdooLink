@@ -3,6 +3,10 @@ package com.alltekusa.qbLink.Report.Model;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrder;
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrderLine;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.PurchaseOrderLineManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.PurchaseOrderManager;
@@ -11,10 +15,6 @@ import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderLineManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.SalesOrderManager;
 
 import com.alltekusa.qbLink.Model.Query.SQLUpdateMessage;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrderLine;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 
 public class SOStatusReport {
 	static ArrayList<SaleOrder> missingPO = new ArrayList<>();

@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import org.w3c.dom.Document;
 
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderLineOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderOdoo;
+import com.aionsoft.qblink.model.odoo.VendorOdoo;
 
 public class OdooData {
 	

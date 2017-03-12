@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.logging.Logger;
 
+import com.aionsoft.qblink.model.quickbooks.Customer;
+import com.aionsoft.qblink.model.quickbooks.Vendor;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
-import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
 
 public class VendorManager extends QBManager {
 

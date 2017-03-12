@@ -2,8 +2,7 @@ package com.alltekusa.qbLink.Viewer.Console.cmd;
 
 import java.util.ArrayList;
 
-//import com.alltekusa.qbLink.Quickbooks.Model.Inventory;
-import com.alltekusa.qbLink.Quickbooks.Model.Item;
+import com.aionsoft.qblink.model.quickbooks.Item;
 
 public class InventoryCalculation {
 	

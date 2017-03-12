@@ -2,12 +2,12 @@ package com.alltekusa.qbLink.Quickbooks.Process.Helper;
 
 import java.sql.SQLException;
 
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.quickbooks.Customer;
+import com.aionsoft.qblink.model.quickbooks.ProductCategory;
 import com.alltekusa.qbLink.Controller.Quickbooks.CustomerManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.ProductManager;
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
-import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
 
 public class ProcessorCategoryQbooks {
 

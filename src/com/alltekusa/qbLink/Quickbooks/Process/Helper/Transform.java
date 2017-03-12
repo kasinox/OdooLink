@@ -8,27 +8,27 @@ import java.util.ArrayList;
 
 import org.w3c.dom.NodeList;
 
-import com.alltekusa.qbLink.Configuration.CurrencyCode;
-import com.alltekusa.qbLink.Configuration.Incoterm;
-import com.alltekusa.qbLink.Configuration.IncotermCode;
-import com.alltekusa.qbLink.Configuration.PaymentTermCode;
-import com.alltekusa.qbLink.Configuration.SalesRepCode;
+import com.aionsoft.qblink.configuration.quickbooks.CurrencyCode;
+import com.aionsoft.qblink.configuration.quickbooks.Incoterm;
+import com.aionsoft.qblink.configuration.quickbooks.IncotermCode;
+import com.aionsoft.qblink.configuration.quickbooks.PaymentTermCode;
+import com.aionsoft.qblink.configuration.quickbooks.SalesRepCode;
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderLineOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderOdoo;
+import com.aionsoft.qblink.model.odoo.VendorOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo.ProductType;
+import com.aionsoft.qblink.model.quickbooks.Customer;
+import com.aionsoft.qblink.model.quickbooks.Product;
+import com.aionsoft.qblink.model.quickbooks.ProductCategory;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
+import com.aionsoft.qblink.model.quickbooks.Vendor;
 import com.alltekusa.qbLink.Model.Base.Cell;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo.ProductType;
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
-import com.alltekusa.qbLink.Quickbooks.Model.Product;
-import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
-import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
 
 public class Transform {
 	

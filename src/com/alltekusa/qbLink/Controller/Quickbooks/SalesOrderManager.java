@@ -6,11 +6,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Configuration.SalesRepCode;
+import com.aionsoft.qblink.configuration.quickbooks.SalesRepCode;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 
 public class SalesOrderManager extends QBManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();	

@@ -2,12 +2,12 @@ package com.alltekusa.qbLink.Viewer.Console.cmd;
 
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
-import com.alltekusa.qbLink.Quickbooks.Model.Invoice;
-import com.alltekusa.qbLink.Quickbooks.Model.Product;
-import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
+import com.aionsoft.qblink.model.quickbooks.Customer;
+import com.aionsoft.qblink.model.quickbooks.Invoice;
+import com.aionsoft.qblink.model.quickbooks.Product;
+import com.aionsoft.qblink.model.quickbooks.ProductCategory;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.Vendor;
 
 public class QuickbooksData {
 	ArrayList<SaleOrder> saleOrderQB = new ArrayList<>();

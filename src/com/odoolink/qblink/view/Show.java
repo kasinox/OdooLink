@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.alltekusa.qbLink.Viewer.Console.cmd.OdooData;
 import com.alltekusa.qbLink.Viewer.Console.cmd.QBExtract;
 import com.alltekusa.qbLink.Viewer.Console.cmd.QBGet;

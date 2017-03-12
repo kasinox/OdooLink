@@ -2,7 +2,7 @@ package com.alltekusa.qbLink.Report.Manager;
 
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
 
 public class ReportManager {
 	

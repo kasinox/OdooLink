@@ -8,15 +8,15 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderLineOdoo;
+import com.aionsoft.qblink.model.odoo.SaleOrderOdoo;
+import com.aionsoft.qblink.model.odoo.VendorOdoo;
 import com.alltekusa.qbLink.Helper.GetURI;
 import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Helper.Sorter;
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
 
 public class SaleOrderProcessor {
 

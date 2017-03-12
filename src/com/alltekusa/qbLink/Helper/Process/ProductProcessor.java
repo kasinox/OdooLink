@@ -4,10 +4,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SupplierInfoOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo.ProductType;
+import com.aionsoft.qblink.model.odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo;
+import com.aionsoft.qblink.model.odoo.SupplierInfoOdoo;
+import com.aionsoft.qblink.model.odoo.ProductOdoo.ProductType;
 
 public class ProductProcessor {
 	

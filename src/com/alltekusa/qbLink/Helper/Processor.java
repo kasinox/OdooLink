@@ -18,6 +18,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import com.aionsoft.qblink.model.quickbooks.Customer;
+import com.aionsoft.qblink.model.quickbooks.Product;
+import com.aionsoft.qblink.model.quickbooks.SaleOrder;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
+import com.aionsoft.qblink.model.quickbooks.Vendor;
 import com.alltekusa.qbLink.Controller.Database.CMDType;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Controller.Database.DBType;
@@ -29,11 +34,6 @@ import com.alltekusa.qbLink.Helper.Process.SaleOrderProcessor;
 import com.alltekusa.qbLink.Model.Base.Cell;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Configuration.Entry;
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
-import com.alltekusa.qbLink.Quickbooks.Model.Product;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrder;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
-import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
 
 //import javafx.beans.property.SimpleStringProperty;
 //import javafx.beans.property.StringProperty;

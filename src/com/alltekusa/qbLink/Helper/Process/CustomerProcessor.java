@@ -4,8 +4,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.alltekusa.qbLink.Odoo.Model.ContactOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
+import com.aionsoft.qblink.model.odoo.ContactOdoo;
+import com.aionsoft.qblink.model.odoo.CustomerOdoo;
 
 public class CustomerProcessor {
 	

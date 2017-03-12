@@ -8,11 +8,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Logger;
 
+import com.aionsoft.qblink.model.quickbooks.Customer;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Base.Table;
-import com.alltekusa.qbLink.Quickbooks.Model.Customer;
 
 public class QBManager {
 

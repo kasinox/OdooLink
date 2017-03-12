@@ -11,12 +11,12 @@ import java.util.ArrayList;
 
 import org.w3c.dom.Document;
 
+import com.aionsoft.qblink.model.quickbooks.PurchaseOrderLine;
+import com.aionsoft.qblink.model.quickbooks.SaleOrderLine;
 import com.alltekusa.qbLink.Controller.Database.ConnectionManager;
 import com.alltekusa.qbLink.Helper.DateConvertor;
 import com.alltekusa.qbLink.Helper.Processor;
 import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Quickbooks.Model.PurchaseOrderLine;
-import com.alltekusa.qbLink.Quickbooks.Model.SaleOrderLine;
 
 public class SalesOrderLineManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();
