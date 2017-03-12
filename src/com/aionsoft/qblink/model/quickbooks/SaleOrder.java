@@ -283,5 +283,84 @@ public class SaleOrder extends Table {
 	public void setSoLines(SaleOrderLine soLines) {
 		this.soLines = soLines;
 	}
+	
+
+	
+
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public String getDueDate() {
+		return dueDate;
+	}
+
+	public String getOrderType() {
+		return orderType;
+	}
+
+	public String getShipDate() {
+		return shipDate;
+	}
+
+	public String getShipMethodRefFullName() {
+		return shipMethodRefFullName;
+	}
+
+	public ArrayList<SaleOrderLine> getSaleOrderLines() {
+		return saleOrderLines;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public void setDueDate(String dueDate) {
+		this.dueDate = dueDate;
+	}
+
+	public void setOrderType(String orderType) {
+		this.orderType = orderType;
+	}
+
+	public void setShipDate(String shipDate) {
+		this.shipDate = shipDate;
+	}
+
+	public void setShipMethodRefFullName(String shipMethodRefFullName) {
+		this.shipMethodRefFullName = shipMethodRefFullName;
+	}
+
+	public void setSaleOrderLines(ArrayList<SaleOrderLine> saleOrderLines) {
+		this.saleOrderLines = saleOrderLines;
+	}
+	
+	/**
+	 * print sales order to xml
+	 * @return
+	 */
+	public String toXML(){
+		String xml="<SalesOrder>\n"+
+					"<RefNumber>"+RefNumber+"</RefNumber> \n"+
+					"<CustomerName>"+customerName+"</CustomerName>\n"+
+					"<DueDate>"+dueDate+"</DueDate>\n"+
+					"<OrderType>"+orderType+"</OrderType>\n"+
+					"<ShipDate>"+shipDate+"</ShipDate>\n"+
+					"<ShipMethod>"+shipMethodRefFullName+"</ShipMethod>\n"+
+					"<FOB>"+FOB+"</FOB>\n"
+				   +"</SalesOrder>";
+		
+		
+		return xml;				
+	}
+	public static void main(String args[]){
+		SaleOrder so = new SaleOrder();
+		
+		so.setRefNumber("111");
+		so.setCustomerName("name");
+		so.setDueDate("1-1-2011");
+		System.out.println(so.toXML());
+	}
 
 }
