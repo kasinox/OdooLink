@@ -8,6 +8,13 @@ import java.util.ArrayList;
 
 import org.w3c.dom.NodeList;
 
+import com.aionsoft.qblink.model.Odoo.CategoryOdoo;
+import com.aionsoft.qblink.model.Odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.Odoo.ProductOdoo;
+import com.aionsoft.qblink.model.Odoo.SaleOrderLineOdoo;
+import com.aionsoft.qblink.model.Odoo.SaleOrderOdoo;
+import com.aionsoft.qblink.model.Odoo.VendorOdoo;
+import com.aionsoft.qblink.model.Odoo.ProductOdoo.ProductType;
 import com.alltekusa.qbLink.Configuration.CurrencyCode;
 import com.alltekusa.qbLink.Configuration.Incoterm;
 import com.alltekusa.qbLink.Configuration.IncotermCode;
@@ -16,13 +23,6 @@ import com.alltekusa.qbLink.Configuration.SalesRepCode;
 import com.alltekusa.qbLink.Model.Base.Cell;
 import com.alltekusa.qbLink.Model.Base.Column;
 import com.alltekusa.qbLink.Model.Base.Row;
-import com.alltekusa.qbLink.Odoo.Model.CategoryOdoo;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
-import com.alltekusa.qbLink.Odoo.Model.ProductOdoo.ProductType;
 import com.alltekusa.qbLink.Quickbooks.Model.Customer;
 import com.alltekusa.qbLink.Quickbooks.Model.Product;
 import com.alltekusa.qbLink.Quickbooks.Model.ProductCategory;

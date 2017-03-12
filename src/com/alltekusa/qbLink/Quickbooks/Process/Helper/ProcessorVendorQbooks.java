@@ -2,10 +2,10 @@ package com.alltekusa.qbLink.Quickbooks.Process.Helper;
 
 import java.sql.SQLException;
 
+import com.aionsoft.qblink.model.Odoo.CustomerOdoo;
+import com.aionsoft.qblink.model.Odoo.VendorOdoo;
 import com.alltekusa.qbLink.Controller.Quickbooks.CustomerManager;
 import com.alltekusa.qbLink.Controller.Quickbooks.VendorManager;
-import com.alltekusa.qbLink.Odoo.Model.CustomerOdoo;
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
 import com.alltekusa.qbLink.Quickbooks.Model.Customer;
 import com.alltekusa.qbLink.Quickbooks.Model.Vendor;
 

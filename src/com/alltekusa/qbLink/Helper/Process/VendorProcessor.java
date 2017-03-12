@@ -4,7 +4,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.alltekusa.qbLink.Odoo.Model.VendorOdoo;
+import com.aionsoft.qblink.model.Odoo.VendorOdoo;
 
 public class VendorProcessor extends CustomerProcessor{
 	int recordNumberContactPartner_id;

@@ -2,7 +2,7 @@ package com.alltekusa.qbLink.Helper;
 
 import java.util.ArrayList;
 
-import com.alltekusa.qbLink.Odoo.Model.SaleOrderLineOdoo;
+import com.aionsoft.qblink.model.Odoo.SaleOrderLineOdoo;
 
 public class Sorter {
 	
