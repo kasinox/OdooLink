@@ -114,6 +114,43 @@ public class Customer extends Table {
 		}
 		return value;
 	}
+	
+	public String toXML(){
+		String xml="<Customer>"
+				+ "<CustomerName>"
+				
+				+ "</CustomerName>"
+				+ "<CompanyName>"
+				+ ""
+				+ "</CompanyName>"
+				+ "<BillAddressAddr1>"
+				+ ""
+				+ "</BillAddressAddr1>"
+				+ "<BillAddressAddr2>"
+				+ ""
+				+ "</BillAddressAddr2>"
+				+ "<BillAddressAddr3>"
+				+ ""
+				+ "</BillAddressAddr3>"
+				+ "<BillAddressCity>"
+				+ ""
+				+ "</BillAddressCity>"
+				+ "<Phone>"
+				+ ""
+				+ "</Phone>"
+				+ "<Fax>"
+				+ ""
+				+ "</Fax>"
+				+ "<Email>"
+				+ ""
+				+ "</Email>"
+				+ "<AccountNumber>"
+				+ ""
+				+ "</AccountNumber>"			
+				+ "</Customer>"
+				+ "";
+		return xml;
+	}
 
 
 	public static void main(String[] args){

@@ -2,6 +2,8 @@ package com.aionsoft.qblink.model.quickbooks;
 
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.model.base.Table;
+
 public class PurchaseOrder extends Table{
 
 	public PurchaseOrder(String poRefNumber, String soRefNumber, String vendorName, String expectedDate,
@@ -68,7 +70,6 @@ public class PurchaseOrder extends Table{
 	public void setShipmethodRefFullName(String shipmethodRefFullName) {
 		this.shipmethodRefFullName = shipmethodRefFullName;
 	}
-	@Override
 	public String toString() {
 		return "PurchaseOrder [" + poRefNumber + "\t" +vendorName + "\t" + expectedDate + "\t" + shipmethodRefFullName
 				+ "]";

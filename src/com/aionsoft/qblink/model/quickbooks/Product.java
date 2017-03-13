@@ -17,6 +17,7 @@ public class Product extends Table {
 	String productName;
 	ProductType productType;
 	String productParentRefListID;
+	
 
 	
 	public Product() {
