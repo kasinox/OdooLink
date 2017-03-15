@@ -26,13 +26,20 @@ public class InventoryCalculation {
 	
 	public ArrayList<Item> calculateInventory2016(){
 		
-		ReadFileByLine reader = new ReadFileByLine("inventoryList.txt");
-		ArrayList<String> soList = reader.getData();
-		System.out.println(soList);
+		ReadFileByLine newFile = new ReadFileByLine("C:\\Users\\b8456\\Documents\\Work Space\\OdooLink\\inventory.csv");
+//		ArrayList<String> test = newFile.getData();
+//		
+//		for(int i=0;i<test.size();i++){
+//			System.out.println(i+","+test.get(i));
+//
+//		}
+		ArrayList<Item> items = newFile.getItemData();
 		
-		
-		
-		return Inventory2016OdooCalculated;
+		for(int i=0;i<items.size();i++){
+		System.out.println(i+","+items.get(i));
+
+		}
+		return items;
 	}
 	
 	

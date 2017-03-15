@@ -1,0 +1,34 @@
+->	Honeywell Security(China) Co., LTD.,true,false
+->	Sanmina-SCI Optical Technology,true,true
+->	Advanced Module International Co., Ltd,true,false
+->	Huawei Technologies Co., Ltd, Shanghai Research Institute,true,false
+->	Shenzhen AllWin Techology Co., LTD.,true,false
+->	HuaCe Electronic System ltd, #607 ,true,false
+->	25 Beijing Inst. of Remote Sensing Eq.,true,false
+->	38 CETC 38inst,true,true
+->	749Tian Shui Hua Tian Jixie Inc.,true,false
+->	Sanmina-SCI Optical Technology,true,true
+->	SZFTNEOPHOTONICS (CHINA) CO., LTD.,true,false
+->	Xi'an Lingding Electronic Technology Co., Ltd,false,true
+->	41Qingdao Xinyi Electronic Equipment Co.,true,false
+->	beijing 703inst ,true,false
+->	DGFT-NEOPHOTONICS DONGGUAN CO., LTD.,true,false
+->	JiNan  Semiconductor Research institute,true,false
+->	Lumentum Operations LLC,true,true
+->	Shaanxi Huajing Micro Electronic Co.,Ltd,true,false
+->	1?,false,false
+->	14-Nanjing Research inst. of Electronics Tech ,false,false
+->	Gand A Technologies Co., LTD ,true,false
+->	25 Beijing Inst. of Remote Sensing Eq.,true,false
+->	26Sichuan Inst of Piezoelectric and  Acoust,true,false
+->	4433China Zhenghua (Guiyang) Co.,true,false
+->	47North East Microelectronics Inst,false,false
+->	AOC Technologies (Wuhan), Inc. AOC Technologies (Wuhan), Inc.,false,false
+->	Huawei Machine Co., Ltd.,true,true
+->	Taiyuan Aviation Instrument Co., Ltd,false,false
+->	513 Inst ,true,false
+->	CASInst Microelectropnics Research,true,false
+->	CASNingbo Inst. Of Material Technologyand E,false,false
+->	Huawei Technologies CO., LTD,true,true
+->	NeoPhotonics(China)Co.,LTD.,false,false
+->	Trilight Wuhan Electronics Technology Co., LTD,false,false
