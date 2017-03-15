@@ -2,7 +2,9 @@ package com.aionsoft.qblink.view;
 
 import java.util.ArrayList;
 
+import com.aionsoft.qblink.helper.ReadFileByLine;
 import com.aionsoft.qblink.model.quickbooks.Item;
+import com.odoolink.utility.LineParser;
 
 public class InventoryCalculation {
 	
@@ -24,7 +26,9 @@ public class InventoryCalculation {
 	
 	public ArrayList<Item> calculateInventory2016(){
 		
-		
+		ReadFileByLine reader = new ReadFileByLine("inventoryList.txt");
+		ArrayList<String> soList = reader.getData();
+		System.out.println(soList);
 		
 		
 		
