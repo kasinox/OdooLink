@@ -8,7 +8,6 @@ public class SaleOrder extends Table {
 	
 	String CustomerRefListID;
 	String TemplateRefListID;
-	
 	String BillAddressAddr1;
 	String BillAddressAddr2;
 	String BillAddressAddr3;

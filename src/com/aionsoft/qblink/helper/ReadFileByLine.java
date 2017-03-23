@@ -135,6 +135,36 @@ public class ReadFileByLine {
 		}
 	}
 
+	public String getURL() {
+		String url="";
+		
+		try {
+
+			File file = new File(fileName);
+			Scanner reader = new Scanner(file);
+			reader.useDelimiter("\n|, ");
+
+			while (reader.hasNext()) {
+				String s = reader.next();
+				
+//				 System.out.println("string:"+s);
+				s = s.trim();
+				s = s.replaceAll(" ", "");
+				url=s;
+				
+				
+
+			}
+			reader.close();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Error: " + e.getMessage());
+		}
+
+		
+		return url;
+	}
+
 }
 
 

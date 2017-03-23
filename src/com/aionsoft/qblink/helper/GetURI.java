@@ -5,31 +5,34 @@ import java.util.ArrayList;
 
 public class GetURI {
 
+	String baseURL;
 	public GetURI(){
-		
+		ReadFileByLine newFile = new ReadFileByLine("C:\\OdooLink\\User\\odoo_address.txt");
+
+		baseURL=newFile.getURL();
 	}
 	public String saleOrder(String id) throws SQLException {
-		String uri = "http://54.223.173.85:8181/OdooLink/Search?table=sale_order&field=name&value=" + id;
+		String uri = baseURL+"Search?table=sale_order&field=name&value=" + id;
 		return uri;
 	}
 
 	public String customer(String id) throws SQLException {
-		String uri = "http://54.223.173.85:8181/OdooLink/Search?table=customer&field=id&value=" + id;
+		String uri = baseURL+"Search?table=customer&field=id&value=" + id;
 		return uri;
 	}
 
 	public String vendor(String id) throws SQLException {
-		String uri = "http://54.223.173.85:8181/OdooLink/Search?table=customer&field=id&value=" + id;
+		String uri = baseURL+"Search?table=customer&field=id&value=" + id;
 		return uri;
 	}
 
 	public String product(String id) throws SQLException {
-		String uri = "http://54.223.173.85:8181/OdooLink/Search?table=items&field=id&value=" + id;
+		String uri = baseURL+"Search?table=items&field=id&value=" + id;
 		return uri;
 	}
 
 	public String purchaseOrder(String id) throws SQLException {
-		String uri = "http://54.223.173.85:8181/OdooLink/Search?table=items&field=id&value=" + id;
+		String uri = baseURL+"Search?table=items&field=id&value=" + id;
 		return uri;
 	}
 	public ArrayList<String> saleOrder(ArrayList<String> so_ids) throws SQLException {
