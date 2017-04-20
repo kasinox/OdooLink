@@ -29,10 +29,11 @@ public class ShowInventory extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Inventory Calculation: ").append(request.getContextPath());
 		
 		InventoryCalculation cal = new InventoryCalculation();
-		cal.calculateInventory2016();
+//		cal.calculateInventory2016();
+		cal.getInventory2016OdooList();
 		
 	}
 

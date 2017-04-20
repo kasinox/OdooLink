@@ -11,6 +11,7 @@ public class GetURI {
 
 		baseURL=newFile.getURL();
 	}
+	
 	public String saleOrder(String id) throws SQLException {
 		String uri = baseURL+"Search?table=sale_order&field=name&value=" + id;
 		return uri;
@@ -44,5 +45,13 @@ public class GetURI {
 			uris.add(uri);
 		}
 		return uris;
+	}
+
+	public String getBaseURL() {
+		return baseURL;
+	}
+
+	public void setBaseURL(String baseURL) {
+		this.baseURL = baseURL;
 	}
 }

@@ -22,7 +22,8 @@ public void XML() throws MalformedURLException{
 	Context context;
 	URL url;
 	URLConnection connection;
-	url  = new URL("http://54.223.173.85:8181/OdooLink/Search?table=sale_order&field=name&value="+id);
+	String baseURL=new GetURI().getBaseURL();
+	url  = new URL(baseURL+"Search?table=sale_order&field=name&value="+id);
 	
 	System.out.println(url);
 

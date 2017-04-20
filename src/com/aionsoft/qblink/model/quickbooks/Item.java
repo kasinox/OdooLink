@@ -1,14 +1,25 @@
 package com.aionsoft.qblink.model.quickbooks;
 
 public class Item extends Product{
+	int quantity;
+	double averageCost;
+	String name;
+	String odoo_id;
+	String description;
 	
+	//for inventory count
+	
+	
+	//for inventory value
+
 	public Item(double averageCost, String name) {
 		super();
 		this.averageCost = averageCost;
 		this.name = name;
 	}
-	double averageCost;
-	String name;
+	
+	
+	
 
 	public double getAverageCost() {
 		return averageCost;
@@ -25,6 +36,12 @@ public class Item extends Product{
 	@Override
 	public String toString() {
 		return "Item [name=" + name + ", averageCost=" + averageCost+"]";
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 	

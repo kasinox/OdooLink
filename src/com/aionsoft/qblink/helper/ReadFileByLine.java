@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+import com.aionsoft.qblink.helper.inventory.InventorySalesOrder;
 import com.aionsoft.qblink.model.quickbooks.Item;
 
 public class ReadFileByLine {
@@ -14,6 +15,7 @@ public class ReadFileByLine {
 	String fileName;
 	ArrayList<String> list = new ArrayList<String>();
 
+	ArrayList<InventorySalesOrder> inventoryList =new ArrayList<InventorySalesOrder>();
 	ArrayList<Item> itemList = new ArrayList<>();
 	
 	public ReadFileByLine(String fileName1) {
@@ -25,6 +27,7 @@ public class ReadFileByLine {
 
 	}
 
+	
 	public ArrayList<String> getData() {
 		try {
 
@@ -96,6 +99,41 @@ public class ReadFileByLine {
 
 	}// end list read
 
+	//read file and return list of inventory sales order ids
+	public ArrayList<InventorySalesOrder> getInventoryData() {
+		try {
+
+			File file = new File(fileName);
+			Scanner reader = new Scanner(file);
+			reader.useDelimiter("\n|, ");
+
+			while (reader.hasNext()) {
+				String s = reader.next();
+				
+//				 System.out.println("string:"+s);
+				s = s.trim();
+				s = s.replaceAll(" ", "");
+				
+				String[] array = s.split(",");
+				String slot = array[0];
+				String origin = array[1];
+				String duplicate = array[2];
+				InventorySalesOrder inventory_so = new InventorySalesOrder(slot,origin,duplicate);
+//				inventoryList
+//				 System.out.println("->" +slot+","+origin+","+duplicate);
+//				 System.out.println("->"+inventory_so);
+				inventoryList.add(inventory_so);
+
+			}
+			reader.close();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Error: " + e.getMessage());
+		}
+
+		return inventoryList;
+
+	}// end list read
 	public void processData(ArrayList rawList) {
 //		 System.out.println(rawList.size());
 //		 int i=0;
