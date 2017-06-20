@@ -95,11 +95,13 @@ public SOStatusReport(){
 		for(int i=0;i<soLineList.size();i++){
 			System.out.println(soLineList.get(i));
 			String status = soLineList.get(i).getStatus();
-			if(!status.equals("ItemService")||!(status==null)||!status.equals("ItemOtherCharge")||!status.equals("received")){
+//			if(!status.equals("ItemService")||!(status==null)||!status.equals("ItemOtherCharge")||!status.equals("received")){
+//				soLineManager.updateSOLineStatus(soLineList.get(i));
+//				
+//			}
+			if(status.equals("ItemInventory")||status.equals("PO CONFIRMED")){
 				soLineManager.updateSOLineStatus(soLineList.get(i));
-				
 			}
-			
 
 		}
 		return soLineList;
