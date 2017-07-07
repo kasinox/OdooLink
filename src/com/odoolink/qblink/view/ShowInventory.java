@@ -7,8 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.aionsoft.qblink.view.InventoryCalculation;
-
 /**
  * Servlet implementation class ShowInventory
  */
