@@ -16,6 +16,10 @@ public class SalesOrderManager extends QBManager {
 	private static Connection conn = ConnectionManager.getInstance().getConnection();	
 	private String insertFieldNames;
 	private String sqlMessage;
+	
+	public SalesOrderManager(){
+		System.out.println("SALES ORDER MANAGER");
+	}
 	public boolean insertSaleOrder(SaleOrder bean) {
 
 		System.out.println("/t SaleOrderManager - InsertSaleOrder");
@@ -259,6 +263,7 @@ public class SalesOrderManager extends QBManager {
 
 	public SaleOrder getSaleOrderByRefNumber(String refNumber) {
 		
+		System.out.println("Get Sale Order by Refnumber:"+refNumber);
 		
 		SaleOrder so = new SaleOrder();
 		

@@ -23,6 +23,10 @@ public class SalesOrderLineManager {
 	private String insertFieldNames;
 	private String sqlMessage;
 
+	public SalesOrderLineManager(){
+		
+		System.out.println("Sales Order Line Manager");
+	}
 	public boolean insertSaleOrderLine(SaleOrderLine bean) throws SQLException {
 		System.out.println("SaleOrderLineManager-InsertSaleOrderLine\n");
 		

@@ -71,16 +71,22 @@ public SOStatusReport(){
 //						poLine.setStatus(soLine.getRefNumber());
 						soLine.setPONumber(poLineRef);	
 						String poStatus = poLine.getShipmethodRefFullName();
-						
-						if(poStatus.equals("CONFIRMED")){
-							soLine.setStatus("PO CONFIRMED");
-//							
-							if(poStatus.equals("PENDING CONFIRM")){
-								soLine.setStatus("PO PENDING CONFIRM");
-
-							}
-//							soLine.sets
+//						System.out.println(poStatus);
+//						System.out.println(poStatus==null);
+						if(poStatus==null){
+							soLine.setStatus("PO PENDING CONFIRM");
 						}
+						else if(poStatus.equals("CONFIRMED")){
+							soLine.setStatus("PO CONFIRMED");
+						}
+						else if(poStatus.equals("PENDING CONFIRM")){
+							soLine.setStatus("PO PENDING CONFIRM");
+
+						}
+						else {
+							soLine.setStatus("PO PENDING CONFIRM");
+						}
+						
 						
 					}
 					
@@ -99,7 +105,7 @@ public SOStatusReport(){
 //				soLineManager.updateSOLineStatus(soLineList.get(i));
 //				
 //			}
-			if(status.equals("ItemInventory")||status.equals("PO CONFIRMED")){
+			if(status.equals("ItemInventory")||status.equals("PO CONFIRMED")||status.equals("PO PENDING CONFIRM")){
 				soLineManager.updateSOLineStatus(soLineList.get(i));
 			}
 
@@ -213,7 +219,8 @@ public SOStatusReport(){
 	}
 	public static void UpdateOpenSalesOrderBySONumber(String number) throws SQLException{
 		
-		SOStatusReport report = new SOStatusReport();
+		System.out.println("UPDATE SO:"+number);
+//		SOStatusReport report = new SOStatusReport();
 		
 		String refNumber1 = number;
 		
