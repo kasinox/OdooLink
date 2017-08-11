@@ -15,6 +15,7 @@ public class SaleOrderLineOdoo {
 	String order_partner_id;
 	String TemplateRefListID;
 	String SaleOrderLineSalesTaxCodeRefListID;
+	
 	boolean ordered;
 	
 	public SaleOrderLineOdoo(){

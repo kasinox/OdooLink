@@ -22,10 +22,11 @@ public class ProductOdoo {
 	
 	String categ_id;
 	CategoryOdoo category;
+	String weight_net;
 	
 	public ProductOdoo(String pt_id,String name_template,SupplierInfoOdoo supplier, String cost_value, String income, String expense,
 			String accountasset_code, String description_sale, String description_purchase, String list_price,
-			String write_date, ProductType type, String categ_id, CategoryOdoo category) {
+			String write_date, ProductType type, String categ_id, CategoryOdoo category,String weight_net) {
 		super();
 		this.pt_id=pt_id;
 		this.name_template=name_template;
@@ -41,6 +42,7 @@ public class ProductOdoo {
 		this.type = type;
 		this.categ_id = categ_id;
 		this.category = category;
+		this.weight_net=weight_net;
 	}
 
 	
@@ -220,6 +222,16 @@ public class ProductOdoo {
 				+"\tTYPE:"+getType()+"\n";
 		return text;
 		
+	}
+
+
+	public String getWeight_net() {
+		return weight_net;
+	}
+
+
+	public void setWeight_net(String weight_net) {
+		this.weight_net = weight_net;
 	}
 
 }
