@@ -40,7 +40,7 @@ public class ProcessorSaleOrderQbooks {
 		boolean updateIncoterm = new SalesOrderManager().updateIncoterm(so);
 		boolean updatePONumber = new SalesOrderManager().updatePONumber(so);
 //		boolean updateInvoiceAddr = new SalesOrderManager().updateInvoiceAddress(so);
-		boolean updateShipAddr = new SalesOrderManager().updateShipAdress(so);
+//		boolean updateShipAddr = new SalesOrderManager().updateShipAdress(so);
 		if(insert&&updateSalesRep&&updatePayment&updateIncoterm&updatePONumber){
 			return true;
 		}
